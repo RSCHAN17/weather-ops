@@ -1,10 +1,7 @@
 async function loadWeather() {
     try {
-        console.log('check 1');
         const res = await fetch('/api/weather')
-        console.log('check 2');
         const weather = await res.json()
-        console.log('check 3');
 
         document.getElementById('weather').innerHTML = `<h2>${weather.name}</h2>
         <p>Temperature: ${weather.main.temp}"C</p>
