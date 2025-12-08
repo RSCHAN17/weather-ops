@@ -23,14 +23,14 @@ app.get('/api/weather', (req, res) => {
         const weatherData = JSON.parse(fs.readFileSync(WEATHER_FILE, 'utf8'))
         res.json(weatherData)
     } catch (err) {
-        console.log('Error reading weather.json', err);
-        res.status(500).json({ error: 'Failed to read weather data' })
+        console.log('Error reading weather.json:', err)
+        res.status(500).json({ error: 'Failed to read weather data'})
     }
 })
 
-app.get('/api/weather-log', (res, req) => {
+app.get('/api/weather-log', (req, res) => {
     if (!fs.existsSync(LOG_FILE)) {
-        return res.status(404).json({ error: 'No weather log available' })
+        return res.status(404).json({ error: 'No weather log available'})
     }
 
     const timestamps = []
@@ -45,14 +45,14 @@ app.get('/api/weather-log', (res, req) => {
             }
         })
         .on('end', () => {
-            res.json({timestamps,temps})  
+            res.json({ timestamps, temps })
         })
         .on('error', err => {
-            console.log('Error reading CSV:', err);
-            res.status(500).json({error: 'Failed to read weather log'})
+            console.log('Error reading CSV:', err)
+            res.status(500).json({ error: 'Failed to read log'})
         })
 })
 
 app.listen(PORT, () => {
-    console.log(`Server running on Port ${PORT}`);
+    console.log(`Server running on PORT: ${PORT}`)
 })
