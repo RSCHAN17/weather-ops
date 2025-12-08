@@ -4,7 +4,7 @@ async function loadWeather() {
         const weather = await res.json()
 
         document.getElementById('weather').innerHTML = `<h2>${weather.name}</h2>
-        <p>Temperature: ${weather.main.temp}"C</p>
+        <p>Temperature: ${weather.main.temp}°C</p>
         <p>Condition: ${weather.weather[0].description}°C</p>`
     } catch (err) {
         document.getElementById('weather').innerHTML = `<p>Failed to load weather data</p>`
