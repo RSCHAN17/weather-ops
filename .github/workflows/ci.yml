@@ -43,4 +43,4 @@ jobs:
           git commit -m "ci: update weather data" || echo "No changes to commit"
           git push || echo "Push failed or no changes"
       - name: Trigger Render Deploy
-        run: Curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
+        run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
