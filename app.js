@@ -28,7 +28,7 @@ app.get('/api/weather', (req, res) => {
     }
 })
 
-app.get('/api/weather-log', (req, res) => {
+app.get('/api/weather_log', (req, res) => {
     if (!fs.existsSync(LOG_FILE)) {
         return res.status(404).json({ error: 'No weather log available'})
     }

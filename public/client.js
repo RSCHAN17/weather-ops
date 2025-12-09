@@ -3,9 +3,12 @@ async function loadWeather() {
         const res = await fetch('/api/weather')
         const weather = await res.json()
 
-        document.getElementById('weather').innerHTML = `<h2>${weather.name}</h2>
-        <p>Temperature: ${weather.main.temp}°C</p>
-        <p>Condition: ${weather.weather[0].description}°C</p>`
+        document.getElementById('weather').innerHTML = `
+        <h2> ${weather.name} </h2>
+        <p>Temperature: ${weather.main.temp} °C</p>
+        <p>Condition: ${weather.weather[0].description} °C</p>
+        `
+        
     } catch (err) {
         document.getElementById('weather').innerHTML = `<p>Failed to load weather data</p>`
         console.log(err);
@@ -14,7 +17,7 @@ async function loadWeather() {
 
 async function loadChart() {
     try {
-        const res = await fetch('/api/weather-log')
+        const res = await fetch('/api/weather_log')
         const { timestamps, temps } = await res.json()
 
         const trace = {
@@ -30,7 +33,7 @@ async function loadChart() {
 
         const layout = {
             title: 'Temperature Over Time',
-            xaxis: { title: 'Data', tupe: 'data' },
+            xaxis: { title: 'Data', type: 'data' },
             yaxis: { title: 'Temperature (°C)' },
             legend: { orientation: 'h', x: 0, y: 1.1 }
         }

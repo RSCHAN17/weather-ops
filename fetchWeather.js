@@ -40,7 +40,7 @@ export async function fetchWeather() {
                 fs.writeFileSync(LOG_FILE, header + fs.readFileSync(LOG_FILE, 'utf-8'))
             }
         }
-        const logEntry = `${nowUTC},${city},${data.main.temp},${data.weather[0].description}`
+        const logEntry = `${nowUTC},${city},${data.main.temp},${data.weather[0].description}\n`
         fs.appendFileSync(LOG_FILE, logEntry)
 
         console.log(`Weather data updated for ${city} at ${nowUTC}`);
@@ -53,3 +53,5 @@ export async function fetchWeather() {
 if (import.meta.url === `file://${[process.argv[1]]}`) {
     fetchWeather()
 }
+
+fetchWeather()
