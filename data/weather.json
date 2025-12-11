@@ -13,24 +13,24 @@
   ],
   "base": "stations",
   "main": {
-    "temp": 6.35,
-    "feels_like": 3.45,
-    "temp_min": 5.93,
-    "temp_max": 9.62,
+    "temp": 6.23,
+    "feels_like": 3.05,
+    "temp_min": 5.55,
+    "temp_max": 8.51,
     "pressure": 1020,
-    "humidity": 94,
+    "humidity": 91,
     "sea_level": 1020,
     "grnd_level": 994
   },
-  "visibility": 6437,
+  "visibility": 1207,
   "wind": {
-    "speed": 4.12,
-    "deg": 50
+    "speed": 4.63,
+    "deg": 60
   },
   "clouds": {
     "all": 100
   },
-  "dt": 1765441811,
+  "dt": 1765448828,
   "sys": {
     "type": 1,
     "id": 4774,
@@ -42,5 +42,5 @@
   "id": 5344157,
   "name": "Dublin",
   "cod": 200,
-  "_last_updated_utc": "2025-12-11T08:32:15.434Z"
+  "_last_updated_utc": "2025-12-11T10:27:08.975Z"
 }
