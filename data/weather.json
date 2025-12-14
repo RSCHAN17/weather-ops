@@ -8,33 +8,32 @@
       "id": 800,
       "main": "Clear",
       "description": "clear sky",
-      "icon": "01d"
+      "icon": "01n"
     }
   ],
   "base": "stations",
   "main": {
-    "temp": 15.86,
-    "feels_like": 15.04,
-    "temp_min": 12.8,
-    "temp_max": 16.75,
-    "pressure": 1016,
-    "humidity": 59,
-    "sea_level": 1016,
-    "grnd_level": 991
+    "temp": 9.44,
+    "feels_like": 9.44,
+    "temp_min": 8.27,
+    "temp_max": 10.33,
+    "pressure": 1017,
+    "humidity": 77,
+    "sea_level": 1017,
+    "grnd_level": 992
   },
   "visibility": 10000,
   "wind": {
-    "speed": 1.16,
-    "deg": 49,
-    "gust": 1.36
+    "speed": 0,
+    "deg": 0
   },
   "clouds": {
     "all": 0
   },
-  "dt": 1765664395,
+  "dt": 1765677289,
   "sys": {
     "type": 2,
-    "id": 2008279,
+    "id": 2002977,
     "country": "US",
     "sunrise": 1765638882,
     "sunset": 1765673383
@@ -43,5 +42,5 @@
   "id": 5344157,
   "name": "Dublin",
   "cod": 200,
-  "_last_updated_utc": "2025-12-13T22:19:55.774Z"
+  "_last_updated_utc": "2025-12-14T01:54:49.549Z"
 }
