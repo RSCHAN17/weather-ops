@@ -5,35 +5,35 @@
   },
   "weather": [
     {
-      "id": 803,
-      "main": "Clouds",
-      "description": "broken clouds",
-      "icon": "04n"
+      "id": 741,
+      "main": "Fog",
+      "description": "fog",
+      "icon": "50n"
     }
   ],
   "base": "stations",
   "main": {
-    "temp": 4.58,
-    "feels_like": 4.58,
-    "temp_min": 4.02,
-    "temp_max": 6.84,
+    "temp": 3.66,
+    "feels_like": 3.66,
+    "temp_min": 3.03,
+    "temp_max": 5.27,
     "pressure": 1023,
-    "humidity": 93,
+    "humidity": 97,
     "sea_level": 1023,
-    "grnd_level": 996
+    "grnd_level": 997
   },
-  "visibility": 10000,
+  "visibility": 402,
   "wind": {
     "speed": 0,
     "deg": 0
   },
   "clouds": {
-    "all": 75
+    "all": 100
   },
-  "dt": 1765787686,
+  "dt": 1765794513,
   "sys": {
     "type": 1,
-    "id": 4446,
+    "id": 4774,
     "country": "US",
     "sunrise": 1765811763,
     "sunset": 1765846213
@@ -42,5 +42,5 @@
   "id": 5344157,
   "name": "Dublin",
   "cod": 200,
-  "_last_updated_utc": "2025-12-15T08:34:46.564Z"
+  "_last_updated_utc": "2025-12-15T10:28:58.301Z"
 }

@@ -144,3 +144,5 @@ timestamp,city,temperature,description
 2025-12-15T06:38:15.222Z,Dublin,6.17,mist
 2025-12-15T08:34:46.562Z,Dublin,4.58,broken clouds
 2025-12-15T08:34:46.564Z,Dublin,4.58,broken clouds
+2025-12-15T10:28:58.300Z,Dublin,3.66,fog
+2025-12-15T10:28:58.301Z,Dublin,3.66,fog
