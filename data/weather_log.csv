@@ -626,3 +626,5 @@ timestamp,city,temperature,description
 2026-01-04T14:19:57.975Z,Dublin,10.88,moderate rain
 2026-01-04T16:27:14.595Z,Dublin,11.01,mist
 2026-01-04T16:27:14.597Z,Dublin,11.01,mist
+2026-01-04T18:31:30.595Z,Dublin,11.07,mist
+2026-01-04T18:31:30.729Z,Dublin,11.07,heavy intensity rain
