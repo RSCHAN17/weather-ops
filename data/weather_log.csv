@@ -1128,3 +1128,5 @@ timestamp,city,temperature,description
 2026-01-25T18:32:43.057Z,Dublin,8.08,clear sky
 2026-01-25T20:26:45.560Z,Dublin,10.16,clear sky
 2026-01-25T20:26:45.562Z,Dublin,9.99,clear sky
+2026-01-25T22:22:26.511Z,Dublin,11.45,haze
+2026-01-25T22:22:26.513Z,Dublin,11.45,haze
