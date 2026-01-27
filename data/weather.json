@@ -8,29 +8,29 @@
       "id": 721,
       "main": "Haze",
       "description": "haze",
-      "icon": "50d"
+      "icon": "50n"
     }
   ],
   "base": "stations",
   "main": {
-    "temp": 15.16,
-    "feels_like": 14.32,
-    "temp_min": 12.91,
-    "temp_max": 16.91,
-    "pressure": 1023,
-    "humidity": 61,
-    "sea_level": 1023,
-    "grnd_level": 998
+    "temp": 11.28,
+    "feels_like": 10.37,
+    "temp_min": 8.99,
+    "temp_max": 12.65,
+    "pressure": 1024,
+    "humidity": 73,
+    "sea_level": 1024,
+    "grnd_level": 999
   },
   "visibility": 8047,
   "wind": {
-    "speed": 6.69,
+    "speed": 3.09,
     "deg": 90
   },
   "clouds": {
     "all": 0
   },
-  "dt": 1769466127,
+  "dt": 1769479058,
   "sys": {
     "type": 2,
     "id": 2016191,
@@ -42,5 +42,5 @@
   "id": 5344157,
   "name": "Dublin",
   "cod": 200,
-  "_last_updated_utc": "2026-01-26T22:24:46.936Z"
+  "_last_updated_utc": "2026-01-27T01:59:42.031Z"
 }
